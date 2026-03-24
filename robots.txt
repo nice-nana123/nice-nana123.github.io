@@ -1,6 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://nice-nana.com/sitemap.xml
-
-DaumWebMasterTool:ca1f1740a895edee13b04124696eb7f2ae7a6a33a7ec5a6ea6cf19dea9611971:SkzY+iibjkK3lYUDIfzDEw==
+# 이 사이트는 https://nas-bag.me 로 이전되었습니다.

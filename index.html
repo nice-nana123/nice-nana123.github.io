@@ -1,25 +1,13 @@
----
-layout: default
----
-
-{% include author.html %}
-
-<div class="container">
-  <div class="row">
-    <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
-      <div class="container__inner">
-        <div class="contaniner__inner-box">
-          <div class="row grid">
-            {% if site.posts.size > 0 %}
-              {% for post in paginator.posts %}
-                {% include article-content.html %}
-              {% endfor %}
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-{% include pagination.html %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=https://nas-bag.me">
+  <link rel="canonical" href="https://nas-bag.me">
+  <title>페이지가 이동되었습니다</title>
+  <script>window.location.replace("https://nas-bag.me");</script>
+</head>
+<body>
+  <p>이 페이지는 <a href="https://nas-bag.me">https://nas-bag.me</a>로 이동되었습니다.</p>
+</body>
+</html>
