@@ -1,5 +1,24 @@
 <head>
 
+  <!-- Redirect to nas-bag.me -->
+  <script>
+    (function() {
+      var map = {
+        '/da_basic/': '/what-i-do/da-display-advertising-basics',
+        '/sem_opt/': '/what-i-do/search-ad-optimization',
+        '/shopping_ad/': '/what-i-do/shopping-search-ad-keyword',
+        '/excel_data_load/': '/what-i-do/excel-encoding-fix',
+        '/ads_scripts/': '/what-i-do/google-ads-script-basics',
+        '/ads_scripts_report/': '/what-i-do/google-ads-script-report-automation',
+        '/excel_pivot_table/': '/what-i-do/excel-pivot-table-guide',
+        '/attribution_model/': '/what-i-do/ga-attribution-model'
+      };
+      var path = window.location.pathname;
+      var dest = map[path] || map[path.replace(/\/$/, '') + '/'] || '/';
+      window.location.replace('https://nas-bag.me' + dest);
+    })();
+  </script>
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
